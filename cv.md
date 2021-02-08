@@ -34,3 +34,6 @@ I take courses on udemy and teach js on learn.js
 Aslo I have small projects like slider, single-page sites, image filter, and to-do list
 
 All these projects can be find on my *[github](https://github.com/joiq)*
+
+## Education
+Donskoy College of Information Technologies (2016 - 2020)
