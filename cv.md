@@ -18,3 +18,12 @@ I like to learn something new and do useful and interesting things
 - CSS
 - JavaScript
 - Git
+
+## Code examples
+__The function checks words are anagrams or not__
+```
+function anagram(word1, word2) {
+	return (word1.split('').sort().join('') === word2.split('').sort().join('')) ? true: false;
+}
+
+```
