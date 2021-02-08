@@ -12,3 +12,9 @@ My goal is to get a job as a front-end developer
 I am sociable, purposeful and independent
 
 I like to learn something new and do useful and interesting things
+
+## Skills
+- HTML
+- CSS
+- JavaScript
+- Git
