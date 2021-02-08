@@ -37,3 +37,7 @@ All these projects can be find on my *[github](https://github.com/joiq)*
 
 ## Education
 Donskoy College of Information Technologies (2016 - 2020)
+
+## Languages
+- Russian (native)
+- English (A1)
