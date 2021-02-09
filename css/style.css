@@ -140,13 +140,18 @@ address {
   margin-right: 0;
 }
 
-.education-list__item {
+.section-list__item {
   list-style: none;
   padding-left: 30px;
+  margin-bottom: 5px;
   position: relative;
 }
 
-.education-list__item::before {
+.section-list__item:last-child {
+  margin-bottom: 0;
+}
+
+.section-list__item::before {
   content: '';
   display: inline-block;
   width: 13px;
