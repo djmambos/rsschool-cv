@@ -14,17 +14,20 @@ img {
   display: block;
 }
 
-main {
-  max-width: 1000px;
+.wrapper {
+  max-width: 800px;
   margin: 0 auto;
-  background-color: rgb(39, 39, 54);
 }
 
 .container {
-  padding: 40px;
+  padding: 30px 40px;
 }
 
 header {
+  background-color: cornflowerblue;
+}
+
+.header__inner {
   display: flex;
   justify-content: space-between;
   color: white;
@@ -49,4 +52,58 @@ header {
 .avatar__img {
   height: 180px;
   border-radius: 20px;
+}
+
+address {
+  background-color: rgb(24, 37, 59);
+}
+
+.address__inner {
+  display: flex;
+}
+
+.address-column {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.address__item {
+  display: inline-block;
+  padding-left: 30px;
+  margin-bottom: 8px;
+  font-style: normal;
+  color: #fff;
+  text-decoration: none;
+}
+
+.address__item-phone {
+  background: url("../img/address/address__phone.svg") no-repeat center left;
+  background-size: contain;
+}
+
+.address__item-mail {
+  background: url("../img/address/address__mail.svg") no-repeat center left;
+  background-size: contain;
+}
+
+.address__item-linkedin {
+  background: url("../img/address/address__linkedin.svg") no-repeat center left;
+  background-size: contain;
+}
+
+.address__item-github {
+  background: url("../img/address/address__github.svg") no-repeat center left;
+  background-size: contain;
+}
+
+.address__item-twitter {
+  background: url("../img/address/address__twitter.svg") no-repeat center left;
+  background-size: contain;
+}
+
+.address__item-home {
+  background: url("../img/address/address__home.svg") no-repeat center left;
+  background-size: contain;
 }
