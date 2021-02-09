@@ -1,0 +1,52 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+  display: block;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: rgb(39, 39, 54);
+}
+
+.container {
+  padding: 40px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.about__name {
+  margin-top: 5px;
+}
+
+.about__profession {
+  color: aliceblue;
+}
+
+.about__text {
+  margin-top: 40px;
+}
+
+.text__paragraph {
+  margin-bottom: 2px;
+}
+
+.avatar__img {
+  height: 180px;
+  border-radius: 20px;
+}
