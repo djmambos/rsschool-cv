@@ -156,6 +156,11 @@ address {
   font-size: 15px;
   color: #fff;
   text-decoration: none;
+  transition: text-shadow linear 0.2s;
+}
+
+.address__item:not(.address__item-home):hover {
+  text-shadow: 0px 0px 4px #fff;
 }
 
 .address__item-phone {
