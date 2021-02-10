@@ -160,6 +160,10 @@ address {
   align-items: flex-start;
 }
 
+.address-list {
+  list-style: none;
+}
+
 .address__item {
   display: inline-block;
   padding-left: 30px;
@@ -213,9 +217,10 @@ address {
   margin-right: 15px;
   margin-bottom: 20px;
   color: #fff;
+  text-shadow: 0 0 5px #437d3a;
   font-weight: bold;
   font-size: 14px;
-  background-color: #333;
+  background-color: #3eb905;
   border-radius: 8px;
 }
 
