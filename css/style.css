@@ -28,6 +28,8 @@ img {
   padding: 20px 40px;
 }
 
+/* Section */
+
 section {
   color: #1f1f1f;
   background-color: #fff;
@@ -83,6 +85,8 @@ section {
   background-color: #333;
 }
 
+/* Paragraph */
+
 .paragraph-link {
   color: inherit;
   font-style: italic;
@@ -92,6 +96,8 @@ section {
 .paragraph-link:hover {
   color: #818181;
 }
+
+/* Header */
 
 header {
   width: 100%;
@@ -131,6 +137,8 @@ header .container {
   height: 150px;
   border-radius: 100%;
 }
+
+/* Contacts */
 
 address {
   background-color: #394242;
@@ -192,6 +200,8 @@ address {
   background: url("../img/address/address__home.svg") no-repeat center left;
   background-size: contain;
 }
+
+/* Skills */
 
 .skills-list__item {
   display: inline-block;
