@@ -9,9 +9,9 @@
 			
 			//YOU CAN CHANGE OPTIONS HERE. DO NOT REALLY MESS WITH STUFF BELOW THAT
 			opts = { //Options, you can change those
-				backgroundColor: "#222",
-				particleColor: "#fcfcfc",
-				particleAmount: 70,
+				backgroundColor: "rgb(87, 117, 218)",
+				particleColor: "#c5ffab",
+				particleAmount: 50,
 				defaultSpeed: 1,
 				addedSpeed: 2,
 				
@@ -74,7 +74,7 @@
 					var opacity = 1 - distance/opts.communicationRadius;
 					if (opacity > 0){ //Draws the line
 						canvas.lineWidth = opacity;
-						canvas.strokeStyle = "rgba(255,255,255,0.5)";
+						canvas.strokeStyle = "#b8d8ff";
 						canvas.beginPath();
 						canvas.moveTo(point1.x, point1.y);
 						canvas.lineTo(father[i].x, father[i].y);
